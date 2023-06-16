@@ -95,4 +95,11 @@ class Perro:
     def perro_grande(cls , est):
         if est > 0.79:
             return cls("",0,est)
+            #Return Perro("",0,est)
+    @classmethod
+    def constructor_dos(cls, raz, ed):
+        if ed > 0 and ed < 20:
+            return cls(raz, ed , 0.0)
+        else:
+            return cls(raz,0,0)
 

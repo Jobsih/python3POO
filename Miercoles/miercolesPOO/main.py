@@ -24,7 +24,17 @@ def main():
     cachorro = Perro.es_cachorro(int(perro1.edad))
     print(cachorro)
     Perro.dormir()
+
     danes = Perro.perro_grande(0.8)
     print(danes)
+
+    obj1= Perro("Pug",1,0.4)
+    obj2= Perro.perro_grande(0.9)
+    obj3= Perro.constructor_dos("French",2)
+
+    print(obj1)
+    print(obj2)
+    print(obj3)
+
 
 main()
